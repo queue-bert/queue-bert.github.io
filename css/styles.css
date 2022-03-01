@@ -1,3 +1,61 @@
-.button{
-    text-shadow: 10px;
+#home_face{
+    float: left;
+    border-radius: 50%;
+    height: 300px;
+}
+
+#home_name{
+    float: left;
+    margin: 150px 0px 0px 30px;
+}
+
+.simple_nav{
+    overflow: hidden;
+    margin: 0px 400px;
+}
+
+.simple_nav a {
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 20px;
+}
+.home_personal::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(222, 196, 255);
+}
+
+.button {
+    background-color: rgb(255, 121, 237);
+    border: 2px solid rgb(125, 196, 255);
+    /* border-color: aqua; */
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+.white_text{
+    color: white;
+}
+
+.purple_text{
+    color: rgb(172, 108, 255);
+}
+
+.bblue_text{
+    color: rgb(164, 234, 255);
+}
+
+.dblue_text{
+    color: rgb(56, 21, 253);
 }
