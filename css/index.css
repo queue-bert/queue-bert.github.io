@@ -95,7 +95,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* overflow: hidden; */
     flex-grow: 1;
     background-color: white;
 }
@@ -103,4 +102,16 @@ header {
 .content_element img {
     width: 100%;
     height: auto;
+}
+
+
+@media screen and (max-width: 500px)
+{
+    .home_content
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        color: white;
+    }
 }
