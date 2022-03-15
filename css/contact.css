@@ -13,7 +13,10 @@ body{
     margin: 0 auto;
 }
 
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 .contact_info{
     font-size: 4rem;
@@ -57,4 +60,20 @@ body{
 .outer_nav {
     display: table;
     margin: 0 auto;
+}
+
+@media (max-width: 400px)
+{
+    .about_element
+    {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        min-height:30rem;
+        max-width: 60rem;
+        gap: 1.5rem;
+        border: 5px solid black;
+        margin: 2rem auto;
+    }
 }
