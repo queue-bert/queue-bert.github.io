@@ -1,0 +1,55 @@
+#box {
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+}
+
+#button_increase {
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    color: white;
+}
+
+#button_decrease {
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+body{
+    background-color: #320116;
+    color: white;
+}
+
+.my_nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    font-size: 1.5rem;
+    margin: 0px 1rem;
+  }
+
+  li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  li a:hover{
+      color: orange;
+  }
+
+.outer_nav {
+    display: table;
+    margin: 0 auto;
+}
+
+#title{
+    margin: 0px auto;
+    width: fit-content;
+}
