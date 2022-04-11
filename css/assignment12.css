@@ -1,0 +1,45 @@
+body
+{
+    background-color: #320116;
+    color: white;
+}
+
+header
+{
+    font-size: 2rem;
+    margin: 0px auto;
+    width: fit-content;
+}
+
+.quotes
+{
+    background-color: aliceblue;
+    width: 50rem;
+    margin: 0px auto;
+    min-height: 200px;
+}
+
+.quote-text
+{
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: black;
+}
+
+.controls
+{
+    margin: 30px auto;
+    width: 50rem;
+}
+
+#js-new-quote
+{
+    /* width: fit-content; */
+    margin: 0px auto;
+}
+
+.new-quote
+{
+    /* background-color: #4A2B0F;
+    margin-bottom: 15px; */
+}
