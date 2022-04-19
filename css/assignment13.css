@@ -28,6 +28,8 @@ p {
   color: #ffffff;
   padding: 10px;
   visibility: hidden;
+  background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
 }
 
 button {
