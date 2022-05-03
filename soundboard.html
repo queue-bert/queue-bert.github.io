@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="new_index.css">
+    <script defer src="https://unpkg.com/tone"></script>
+    <script defer src="music.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="outer_nav">
+            <hr>
+            <ul class="my_nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="new_about.html">About</a></li>
+                <li><a href="new_project.html">Projects</a></li>
+                <li><a href="new_contact.html">Contact</a></li>
+                <li><a href="soundboard.html">Sound Board!</a></li>
+            </ul>
+            <hr>
+        </div>
+    </header>
+    <div id="container">
+        <div id="add_button">
+            <h1>Add A Button</h1>
+            <hr>
+            <p>
+                The numbers for the buttons already created below correspond to known notes and their frequencies.
+                A quick Google search should tell you what frequency goes with the particular note that you'd like to add.
+                Otherwise, feel free to add any number that you want! Try to play around with the buttons below to get a feel
+                for what a good frequency would be to experiment with. Too high or too low of a frequency might make the sound
+                unaudible if you don't happen to have great speakers on your device! Just a bit of warning before you explore.
+            </p>
+            <form>
+                <label for="frequency">Frequency(Hz)</label>
+                <input type="text" name="frequency" id="frequency" placeholder="Enter Frequency">
+            </form>
+            <button>Add Sound</button>
+        </div>
+        <div id="about">
+            <h1>About Tone.js</h1>
+            <hr>
+            <p>Tone.js is a Web Audio framework for creating interactive music in the browser. The architecture of Tone.js aims to be 
+                familiar to both musicians and audio programmers creating web-based audio applications. On the high-level, Tone offers 
+                common DAW (digital audio workstation) features like a global transport for synchronizing and scheduling events as well 
+                as prebuilt synths and effects. Additionally, Tone provides high-performance building blocks to create your own synthesizers, 
+                effects, and complex control signals. Click on Macintosh below to find out more!
+            </p>
+            <a href="https://tonejs.github.io"><img src="/img/PNGs/macintosh.png"></a>
+        </div>
+        <section id="sound_1">220.00</section>
+        <section id="sound_2">233.08</section>
+        <section id="sound_3">246.94</section>
+        <section id="sound_4">261.63</section>
+        <section id="sound_5">277.18</section>
+        <section id="sound_6">293.66</section>
+        <section id="sound_7">311.13</section>
+        <section id="sound_8">329.63</section>
+        <section id="sound_9">349.23</section>
+        <section id="sound_10">369.99</section>
+        <section id="sound_11">392.00</section>
+        <section id="sound_12">415.30</section>
+        <section id="sound_13">440.00</section>
+        <section id="sound_14">466.16</section>
+        <section id="sound_15">493.88</section>
+        <section id="sound_16">523.25</section>
+      </div>
+</body>
+</html>

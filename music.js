@@ -15,6 +15,10 @@ var container = document.getElementById('container')
 children = container.childNodes
 for(var i = 0; i < children.length; i++)
 {
+    if(children[i].id === 'add_button' || children[i].id === 'about')
+    {
+        continue
+    }
     console.log(children[i].id)
     children[i].addEventListener("touchstart", notePressed, false);
     children[i].addEventListener("touchend", noteReleased, false);
