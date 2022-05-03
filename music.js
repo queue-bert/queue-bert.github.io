@@ -26,6 +26,21 @@ for(var i = 0; i < children.length; i++)
     children[i].addEventListener("mouseup", noteReleased, false);
 }
 
+var changed_button = document.getElementsByClassName("changed_button")
+
+var button = document.getElementById('submit_change')
+button.addEventListener("mousedown", change_button, false)
+
+function change_button()
+{
+    // console.log("CALLED")
+    freq = document.getElementById('frequency').value;
+    // console.log(freq)
+    changed_button[0].innerHTML = freq;
+}
+
+
+
 // var keyElement = document.getElementById("play");
 
 // keyElement.addEventListener("touchstart", notePressed, false);
